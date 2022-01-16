@@ -1,0 +1,17 @@
+{
+	"command": {
+		"prefix": ["cum"],
+		"body": [
+			"const { SlashCommandBuilder } = require('@discordjs/builders');",
+			" ",
+			"module.exports = {",
+			"\tdata: new SlashCommandBuilder()",
+			"\t\t.setName('nome')",
+			"\t\t.setDescription('desc'),",
+			"\tasync execute(interaction) {",
+			"\t\t return interaction.reply('x');",
+			"\t},",
+			"};"
+		]
+	}
+}
